@@ -1,0 +1,5 @@
+name: CodeQL custom scanning
+
+paths-ignore:
+  - cl/node_modules
+  - 'cl/**/tests.py'
