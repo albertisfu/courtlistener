@@ -1390,22 +1390,22 @@ files = [
 
 [[package]]
 name = "eyecite"
-version = "2.4.0"
+version = "2.5.2"
 description = "Tool for extracting legal citations from text strings."
 optional = false
-python-versions = ">=3.7,<4.0"
+python-versions = ">=3.8.1,<4.0.0"
 files = [
-    {file = "eyecite-2.4.0-py3-none-any.whl", hash = "sha256:8078b2d9d973cd684f1156886950051e6bba4713f314b5e11fabf4a4ca235e66"},
-    {file = "eyecite-2.4.0.tar.gz", hash = "sha256:4133042f9c73c048e4099d1c13d3862e85a603760d4667dc5ccdbb7bc760dc57"},
+    {file = "eyecite-2.5.2-py3-none-any.whl", hash = "sha256:bf231df10c6a6cde8afedec6cdd0a8cd8f9d3593b4d407efc0e8482eb38261eb"},
+    {file = "eyecite-2.5.2.tar.gz", hash = "sha256:72cd8c57006e83d113fdf4226668427d23472273c3a68f14c41f5cb0fd5fdd3b"},
 ]
 
 [package.dependencies]
-courts-db = ">=0.10.0,<0.11.0"
+courts-db = ">=0.10.9,<0.11.0"
 fast-diff-match-patch = ">=2.0.0,<3.0.0"
 lxml = ">=4.6.3,<5.0.0"
 pyahocorasick = ">=1.2"
 regex = ">=2020.1.8"
-reporters-db = ">=3.2.2,<4.0.0"
+reporters-db = "3.2.36"
 
 [[package]]
 name = "factory-boy"
@@ -4768,4 +4768,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11, <3.12"
-content-hash = "7db32198fa967b6cd07d76e67404b6ee1c64b09658d9437f5051338132f4ddb4"
+content-hash = "3b535028e89343cdd82861047b75375fee9994f1559a9aec3c7d77d6ea700df3"
